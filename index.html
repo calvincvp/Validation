@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/hack-font/3.3.0/web/hack.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.css" >
+</head>
+<body>
+    <div class="container">
+        <form action="#" id="form" class="form"
+        autocomplete="off">
+        <h1>Registration Form</h1>
+
+        <div class="form-group" >
+            <label for="username">User Name</label>
+            <input type="text" id="username" data-name="User Name" placeholder="Enter Username" >
+            <p>Error</p>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" id="email" data-name="Email ID" placeholder="Enter Email" >
+            <p>Error</p>
+        </div>
+
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" data-name="Password" placeholder="Enter Password" >
+            <p>Error</p>
+        </div>
+
+        <div class="form-group">
+            <label for="password2">Confirm Password</label>
+            <input type="password" id="password2" data-name="Confirm Password" placeholder="Enter Password" >
+            <p>Error</p>
+        </div>
+
+        <button type="submit">Submit</button>
+
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Caveat:wght@400;500;600;700&family=Dosis:wght@200&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color:#3f4e67;
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    background-color: #829ab3;
+    width:500px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(10,10,10,.9);
+}
+
+.container h1 {
+    font-weight: 1000;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.form{
+    padding: 30px 40px;
+}
+
+.form-group {
+    color:antiquewhite;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.form-group label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.form-group input{
+    border:  2px solid black;
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    outline:none;
+    border-radius: 7px;
+}
+
+.form-group p{
+    font-size: 14px;
+    margin-top: 5px;
+    visibility: hidden;
+}
+
+.form button{
+    width: 100%;
+    padding: 10px;
+    border: 3px solid #7f7d78;
+    color:coral;
+    background-color:floralwhite;
+    text-transform: uppercase;
+    font-weight: 1000;
+}
+
+.form-group.error p{
+    color: red;
+    visibility: visible;
+}
+
+.form-group.error input {
+    border-color:red ;
+}
+
+.form-group.success input{
+    border-color: green;
+}
